@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Lexend:wght@100..900&display=swap');
+.font-primary{
+    font-family: "Lexend", sans-serif;
+}
+
+.font-secondary{
+    font-family: "Fira Sans", sans-serif;
+}
