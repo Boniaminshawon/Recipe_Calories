@@ -1,15 +1,20 @@
-import Navbar from "./components/Navbar/Navbar"
 
+import './App.css'
+import Banner from './components/Banner'
+import Navbar from './components/Navbar'
+import Recipes from './components/Recipes'
 function App() {
-  
+
 
   return (
     <>
-    <div className="container mx-auto border-4 border-black min-h-screen px-20">
-      <Navbar></Navbar>
+      <div className="container  mx-auto border-4 border-black min-h-screen px-16 font-primary bg">
 
-    </div>
-     
+        <Navbar></Navbar>
+        <Banner></Banner>
+        <Recipes></Recipes>
+      </div>
+
     </>
   )
 }

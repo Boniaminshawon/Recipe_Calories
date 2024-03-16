@@ -1,0 +1,162 @@
+[
+  {
+    "recipe_id": "1",
+    "recipe_name": "Spicy Chicken Tacos",
+    "recipe_image": "spicy_chicken_tacos.jpg",
+    "short_description": "Delicious tacos filled with spicy shredded chicken, perfect for a fiesta night!",
+    "ingredients": [
+      "200g Chicken breast",
+      "100g Tortillas",
+      "50g Lettuce",
+      "80g Tomatoes",
+      "50g Cheese",
+      "30g Sour cream"
+    ],
+    "preparing_time": "30 minutes",
+    "recipe_calories": "350"
+  },
+  {
+    "recipe_id": "2",
+    "recipe_name": "Mediterranean Quinoa Salad",
+    "recipe_image": "mediterranean_quinoa_salad.jpg",
+    "short_description": "A refreshing salad packed with quinoa, cucumber, tomatoes, and feta cheese, drizzled with lemon vinaigrette.",
+    "ingredients": [
+      "150g Quinoa",
+      "100g Cucumber",
+      "120g Tomatoes",
+      "1 Red onion",
+      "1 Lemon",
+      "30g Olive oil"
+    ],
+    "preparing_time": "20 minutes",
+    "recipe_calories": "250"
+  },
+  {
+    "recipe_id": "3",
+    "recipe_name": "Classic Beef Burger",
+    "recipe_image": "classic_beef_burger.jpg",
+    "short_description": "Juicy beef patty topped with lettuce, tomato, onion, and melted cheese, served in a toasted bun.",
+    "ingredients": [
+      "200g Ground beef",
+      "2 Burger buns",
+      "50g Lettuce",
+      "1 Tomato",
+      "2 Cheese slices",
+      "20g Ketchup"
+    ],
+    "preparing_time": "25 minutes",
+    "recipe_calories": "450"
+  },
+  {
+    "recipe_id": "4",
+    "recipe_name": "Vegetable Stir-Fry",
+    "recipe_image": "vegetable_stir_fry.jpg",
+    "short_description": "Colorful assortment of vegetables stir-fried in a savory sauce, served with rice.",
+    "ingredients": [
+      "100g Broccoli",
+      "80g Carrots",
+      "120g Bell peppers",
+      "30g Soy sauce",
+      "2 cloves Garlic",
+      "150g Rice"
+    ],
+    "preparing_time": "35 minutes",
+    "recipe_calories": "300"
+  },
+  {
+    "recipe_id": "5",
+    "recipe_name": "Creamy Mushroom Risotto",
+    "recipe_image": "creamy_mushroom_risotto.jpg",
+    "short_description": "Rich and creamy risotto with tender mushrooms, flavored with white wine and parmesan cheese.",
+    "ingredients": [
+      "200g Arborio rice",
+      "150g Mushrooms",
+      "100ml White wine",
+      "500ml Chicken broth",
+      "2 cloves Garlic",
+      "80g Parmesan cheese"
+    ],
+    "preparing_time": "40 minutes",
+    "recipe_calories": "400"
+  },
+  {
+    "recipe_id": "6",
+    "recipe_name": "Grilled Salmon with Asparagus",
+    "recipe_image": "grilled_salmon_with_asparagus.jpg",
+    "short_description": "Healthy and flavorful grilled salmon fillets served with roasted asparagus spears.",
+    "ingredients": [
+      "2 Salmon fillets",
+      "150g Asparagus",
+      "1 Lemon",
+      "30g Olive oil",
+      "5g Salt",
+      "5g Black pepper"
+    ],
+    "preparing_time": "25 minutes",
+    "recipe_calories": "350"
+  },
+  {
+    "recipe_id": "7",
+    "recipe_name": "Penne Arrabbiata",
+    "recipe_image": "penne_arrabbiata.jpg",
+    "short_description": "Penne pasta tossed in a spicy tomato sauce with garlic and fresh basil.",
+    "ingredients": [
+      "200g Penne pasta",
+      "150g Tomato sauce",
+      "2 cloves Garlic",
+      "10g Chili flakes",
+      "30g Fresh basil",
+      "40g Parmesan cheese"
+    ],
+    "preparing_time": "30 minutes",
+    "recipe_calories": "300"
+  },
+  {
+    "recipe_id": "8",
+    "recipe_name": "Chicken Caesar Salad",
+    "recipe_image": "chicken_caesar_salad.jpg",
+    "short_description": "Classic Caesar salad topped with grilled chicken breast, croutons, and parmesan cheese.",
+    "ingredients": [
+      "200g Chicken breast",
+      "100g Romaine lettuce",
+      "50g Croutons",
+      "1 Onion",
+      "50g Parmesan cheese",
+      "30g Caesar dressing"
+    ],
+    "preparing_time": "20 minutes",
+    "recipe_calories": "350"
+  },
+  {
+    "recipe_id": "9",
+    "recipe_name": "Vegetable Curry",
+    "recipe_image": "vegetable_curry.jpg",
+    "short_description": "Hearty and aromatic vegetable curry made with a blend of spices and coconut milk.",
+    "ingredients": [
+      "200g Potatoes",
+      "100g Carrots",
+      "120g Bell peppers",
+      "200ml Coconut milk",
+      "20g Curry powder",
+      "150g Rice"
+    ],
+    "preparing_time": "45 minutes",
+    "recipe_calories": "300"
+  },
+  {
+    "recipe_id": "10",
+    "recipe_name": "Chocolate Chip Cookies",
+    "recipe_image": "chocolate_chip_cookies.jpg",
+    "short_description": "Classic homemade chocolate chip cookies with gooey chocolate chips and a soft center.",
+    "ingredients": [
+      "200g All-purpose flour",
+      "150g Butter",
+      "100g Brown sugar",
+      "2 Eggs",
+      "10ml Vanilla extract",
+      "150g Chocolate chips"
+    ],
+    "preparing_time": "15 minutes",
+    "recipe_calories": "200"
+  }
+]
