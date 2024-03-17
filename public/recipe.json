@@ -2,7 +2,7 @@
   {
     "recipe_id": "1",
     "recipe_name": "Spicy Chicken Tacos",
-    "recipe_image": "spicy_chicken_tacos.jpg",
+    "recipe_image": "https://i.ibb.co/rtLT4Z5/spicy-chicken-taco-recipe-1695929046510-1200x.jpg",
     "short_description": "Delicious tacos filled with spicy shredded chicken, perfect for a fiesta night!",
     "ingredients": [
       "200g Chicken breast",
@@ -12,30 +12,15 @@
       "50g Cheese",
       "30g Sour cream"
     ],
-    "preparing_time": "30 minutes",
-    "recipe_calories": "350"
+    "preparing_time": 30,
+    "recipe_calories": 350
   },
+  
   {
     "recipe_id": "2",
-    "recipe_name": "Mediterranean Quinoa Salad",
-    "recipe_image": "mediterranean_quinoa_salad.jpg",
-    "short_description": "A refreshing salad packed with quinoa, cucumber, tomatoes, and feta cheese, drizzled with lemon vinaigrette.",
-    "ingredients": [
-      "150g Quinoa",
-      "100g Cucumber",
-      "120g Tomatoes",
-      "1 Red onion",
-      "1 Lemon",
-      "30g Olive oil"
-    ],
-    "preparing_time": "20 minutes",
-    "recipe_calories": "250"
-  },
-  {
-    "recipe_id": "3",
     "recipe_name": "Classic Beef Burger",
-    "recipe_image": "classic_beef_burger.jpg",
-    "short_description": "Juicy beef patty topped with lettuce, tomato, onion, and melted cheese, served in a toasted bun.",
+    "recipe_image": "https://i.ibb.co/VDcqcj5/Butcher-Burger.jpg",
+    "short_description": "Juicy beef patty topped with lettuce, tomato, onion, and melted cheese, served in a bun.",
     "ingredients": [
       "200g Ground beef",
       "2 Burger buns",
@@ -44,13 +29,13 @@
       "2 Cheese slices",
       "20g Ketchup"
     ],
-    "preparing_time": "25 minutes",
-    "recipe_calories": "450"
+    "preparing_time": 25,
+    "recipe_calories": 450
   },
   {
-    "recipe_id": "4",
+    "recipe_id": "3",
     "recipe_name": "Vegetable Stir-Fry",
-    "recipe_image": "vegetable_stir_fry.jpg",
+    "recipe_image": "https://i.ibb.co/0m49Z4h/CARD-Vegetable-Stir-Fry.jpg",
     "short_description": "Colorful assortment of vegetables stir-fried in a savory sauce, served with rice.",
     "ingredients": [
       "100g Broccoli",
@@ -60,13 +45,13 @@
       "2 cloves Garlic",
       "150g Rice"
     ],
-    "preparing_time": "35 minutes",
-    "recipe_calories": "300"
+    "preparing_time": 35,
+    "recipe_calories": 300
   },
   {
-    "recipe_id": "5",
+    "recipe_id": "4",
     "recipe_name": "Creamy Mushroom Risotto",
-    "recipe_image": "creamy_mushroom_risotto.jpg",
+    "recipe_image": "https://i.ibb.co/bPtvG64/April21-Chicken-and-mushroom-risotto-976x549.jpg",
     "short_description": "Rich and creamy risotto with tender mushrooms, flavored with white wine and parmesan cheese.",
     "ingredients": [
       "200g Arborio rice",
@@ -76,30 +61,15 @@
       "2 cloves Garlic",
       "80g Parmesan cheese"
     ],
-    "preparing_time": "40 minutes",
-    "recipe_calories": "400"
+    "preparing_time": 40,
+    "recipe_calories": 400
   },
+  
   {
-    "recipe_id": "6",
-    "recipe_name": "Grilled Salmon with Asparagus",
-    "recipe_image": "grilled_salmon_with_asparagus.jpg",
-    "short_description": "Healthy and flavorful grilled salmon fillets served with roasted asparagus spears.",
-    "ingredients": [
-      "2 Salmon fillets",
-      "150g Asparagus",
-      "1 Lemon",
-      "30g Olive oil",
-      "5g Salt",
-      "5g Black pepper"
-    ],
-    "preparing_time": "25 minutes",
-    "recipe_calories": "350"
-  },
-  {
-    "recipe_id": "7",
+    "recipe_id": "5",
     "recipe_name": "Penne Arrabbiata",
-    "recipe_image": "penne_arrabbiata.jpg",
-    "short_description": "Penne pasta tossed in a spicy tomato sauce with garlic and fresh basil.",
+    "recipe_image": "https://i.ibb.co/0rZ432P/arrabbiana-pasta.png",
+    "short_description": "Penne pasta tossed in a spicy tomato sauce with garlic, chilli flakes and fresh basil.",
     "ingredients": [
       "200g Penne pasta",
       "150g Tomato sauce",
@@ -108,13 +78,13 @@
       "30g Fresh basil",
       "40g Parmesan cheese"
     ],
-    "preparing_time": "30 minutes",
-    "recipe_calories": "300"
+    "preparing_time": 30,
+    "recipe_calories": 300
   },
   {
-    "recipe_id": "8",
+    "recipe_id": "6",
     "recipe_name": "Chicken Caesar Salad",
-    "recipe_image": "chicken_caesar_salad.jpg",
+    "recipe_image": "https://i.ibb.co/vVNf6b6/chicken-caesar-salad-1-scaled.webp",
     "short_description": "Classic Caesar salad topped with grilled chicken breast, croutons, and parmesan cheese.",
     "ingredients": [
       "200g Chicken breast",
@@ -124,13 +94,13 @@
       "50g Parmesan cheese",
       "30g Caesar dressing"
     ],
-    "preparing_time": "20 minutes",
-    "recipe_calories": "350"
+    "preparing_time": 20,
+    "recipe_calories": 350
   },
   {
-    "recipe_id": "9",
+    "recipe_id": "7",
     "recipe_name": "Vegetable Curry",
-    "recipe_image": "vegetable_curry.jpg",
+    "recipe_image": "https://i.ibb.co/6Jp9dZY/SES-mixed-vegetable-curry-1957913-03048999db714405bfe8614c975b8a44.jpg",
     "short_description": "Hearty and aromatic vegetable curry made with a blend of spices and coconut milk.",
     "ingredients": [
       "200g Potatoes",
@@ -140,13 +110,13 @@
       "20g Curry powder",
       "150g Rice"
     ],
-    "preparing_time": "45 minutes",
-    "recipe_calories": "300"
+    "preparing_time": 45,
+    "recipe_calories": 300
   },
   {
-    "recipe_id": "10",
+    "recipe_id": "8",
     "recipe_name": "Chocolate Chip Cookies",
-    "recipe_image": "chocolate_chip_cookies.jpg",
+    "recipe_image": "https://i.ibb.co/vVMPSkV/chocolate-chip.jpg",
     "short_description": "Classic homemade chocolate chip cookies with gooey chocolate chips and a soft center.",
     "ingredients": [
       "200g All-purpose flour",
@@ -156,7 +126,7 @@
       "10ml Vanilla extract",
       "150g Chocolate chips"
     ],
-    "preparing_time": "15 minutes",
-    "recipe_calories": "200"
+    "preparing_time": 15,
+    "recipe_calories": 200
   }
 ]

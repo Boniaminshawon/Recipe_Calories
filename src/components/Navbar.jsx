@@ -19,7 +19,7 @@ const Navbar = () => {
        
       </ul>
     </div>
-    <a className=" text-3xl font-semibold text-[#150B2B]">Recipe Calories</a>
+    <a className=" text-[30px] font-bold text-[#150B2B]">Recipe Calories</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-[#150B2BB2]">
@@ -27,12 +27,11 @@ const Navbar = () => {
         <li><a>Recipes</a></li>
         <li><a>About</a></li>
         <li><a>Search</a></li>
-     
     </ul>
   </div>
   <div className="navbar-end">
     <div className='flex bg-[#150b2b0d] p-2 rounded-full text-[#150B2BB2]'>
-        <i><img src={search} alt="" /></i><input placeholder='Search' className='rounded-full w-[90%] bg-[#150b2b0d] ' type="search" name="" id="" />
+        <i><img src={search} alt="" /></i><input placeholder='Search' className='rounded-full px-2 w-[90%] bg-[#150b2b0d] ' type="search" name="" id="" />
     </div>
     <a className=" p-2 bg-[#02B76C] rounded-full"><img src={profile} alt="" /></a>
   </div>
