@@ -2,8 +2,10 @@
 
 import './App.css'
 import Banner from './components/Banner'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Recipes from './components/Recipes'
+import Touch from './components/Touch'
 
 
 function App() {
@@ -13,11 +15,14 @@ function App() {
 
   
 
-      <div className="container  mx-auto border-4 border-black min-h-screen px-16 font-primary bg">
+      <div className="container mx-auto px-16 font-primary bg">
 
         <Navbar></Navbar>
         <Banner></Banner>
         <Recipes ></Recipes>
+        <Touch></Touch>
+        <Footer></Footer>
+     
       </div>
 
     </>

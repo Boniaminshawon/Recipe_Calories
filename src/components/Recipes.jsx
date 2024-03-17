@@ -26,7 +26,7 @@ const Recipes = () => {
             const newCooksCount = [...cooksCount, recipe];
             setCooksCount(newCooksCount);
         }
-        else{
+        else {
             toast.error(`You already select this recipe.
             Please select another one.`);
         }
@@ -42,15 +42,19 @@ const Recipes = () => {
         if (!isExist) {
             const newCurrentCooks = [...currentCooks, recipe];
             setCurrentCooks(newCurrentCooks);
+
+            // time and calories addition
+            const newTotalTime = time + totalTime;
+            setTotalTime(newTotalTime);
+            const newTotalCalories = calories + totalCalories;
+            setTotalCalories(newTotalCalories);
         }
-        else{
+
+        else {
             toast.error(`You already choose this recipe for preparing to cook.
             Please choose another one.`)
         }
-        const newTotalTime = time + totalTime;
-        setTotalTime(newTotalTime);
-        const newTotalCalories = calories + totalCalories;
-        setTotalCalories(newTotalCalories);
+
 
     }
 
@@ -58,14 +62,17 @@ const Recipes = () => {
         <div className=" mt-16">
             <div className="space-y-4 text-center">
                 <h1 className="font-semibold text-[34px]">Our Recipes</h1>
-                <p className="text-[#150B2B99]">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+                <p className="text-[#150B2B99] mx-20 px-20 
+                font-secondary text-lg">We teaches many types of delicious and juicy food. You can learn and make spicy and desert both types of item by doing our course . To achieve mastering of cooking you can explore us.  </p>
             </div>
+
             <div className="flex gap-3 mt-8">
                 <div className="w-[65%] grid grid-cols-2 gap-4">
                     {
                         recipes.map(recipe => <Recipe key={recipe.recipe_id} recipe={recipe} handleToCook={handleToCook}></Recipe>)
                     }
                 </div>
+
 
                 <div className="w-[35%]">
                     <Sidebar handlePreparingBtn={handlePreparingBtn} cooksCount={cooksCount} currentCooks={currentCooks} totalTime={totalTime} totalCalories={totalCalories}></Sidebar>

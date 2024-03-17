@@ -1,9 +1,9 @@
-
+import PropTypes from 'prop-types';
 
 const Sidebar = ({ cooksCount, currentCooks, handlePreparingBtn, totalTime, totalCalories }) => {
 
     return (
-        <div className="border rounded-2xl min-h-screen text-center font-secondary  py-4">
+        <div className="border rounded-2xl text-center shadow-xl font-secondary  py-4">
             <h1 className="font-semibold text-2xl border-b-2 pb-3 mx-16 font-primary">Want to Cook: {cooksCount.length}</h1>
 
 
@@ -26,7 +26,7 @@ const Sidebar = ({ cooksCount, currentCooks, handlePreparingBtn, totalTime, tota
                     {
                         cooksCount.map((recipe, index) => (
 
-                            <tbody className="">
+                            <tbody key={index} className="">
                                 {/* row 1 */}
                                 <tr className="text-xs bg-base-200 ">
                                     <th>{index + 1}</th>
@@ -57,7 +57,7 @@ const Sidebar = ({ cooksCount, currentCooks, handlePreparingBtn, totalTime, tota
                     {
                         currentCooks.map((recipe, index) => (
 
-                            <tbody className="">
+                            <tbody key={index} className="">
                                 {/* row 1 */}
                                 <tr className=" bg-base-200 ">
                                     <th>{index + 1}</th>
@@ -84,4 +84,13 @@ const Sidebar = ({ cooksCount, currentCooks, handlePreparingBtn, totalTime, tota
     );
 };
 
+
+Sidebar.propTypes = {
+    cooksCount: PropTypes.array,
+    currentCooks: PropTypes.array,
+    handlePreparingBtn: PropTypes.func,
+    totalTime:PropTypes.number,
+    totalCalories:PropTypes.number
+
+}
 export default Sidebar;

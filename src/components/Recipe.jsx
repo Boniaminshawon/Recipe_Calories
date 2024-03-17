@@ -1,6 +1,6 @@
 import calories from '../assets/images/Frame (8).png'
 import time from '../assets/images/Frame(9).png'
-
+import PropTypes from 'prop-types';
 
 const Recipe = ({ recipe ,handleToCook}) => {
     const { recipe_name, recipe_image, short_description, ingredients, preparing_time, recipe_calories } = recipe;
@@ -39,4 +39,8 @@ const Recipe = ({ recipe ,handleToCook}) => {
     );
 };
 
+Recipe.propTypes={
+    recipe:PropTypes.object,
+    handleToCook:PropTypes.func
+}
 export default Recipe;
