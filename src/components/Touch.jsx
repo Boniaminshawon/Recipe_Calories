@@ -3,15 +3,15 @@ import email from '../assets/images/Group 1171275318.png'
 import location from '../assets/images/Group 1171275321.png'
 const Touch = () => {
     return (
-        <div className=" mt-16">
+        <div className=" lg:mt-16">
 
 
-            <div className="my-9 ">
+            <div className="my-10 ">
 
                 <div className="text-center space-y-7">
 
-                    <h2 className=" font-semibold text-[34px]">Get In Touch</h2>
-                    <p className="text-[#150B2B99] mx-20 px-20 font-secondary text-lg">You can get in touch with us . You can call or email us. Also you can
+                    <h2 className="font-bold lg:font-semibold lg:text-[34px] text-[26px]">Get In Touch</h2>
+                    <p className="text-[#150B2B99] lg:mx-20 lg:px-20 px-4 font-secondary text-lg">You can get in touch with us . You can call or email us. Also you can
                         visit our club from the belows address. Also you can send us any kinds of massage by this form.
                     </p>
 
@@ -20,7 +20,7 @@ const Touch = () => {
                     <div className="grid lg:gap-6 gap-10 lg:grid-cols-3 w-full lg:mt-12 mt-8">
                         <div
                             className="text-start col-span-2 lg:col-span-1 border-[1px] rounded-2xl border-[rgba(19, 19, 24, 0.10)] lg:space-y-8 space-y-5 p-5">
-                            <div className="bg-[#BCED6D1A] p-7 lg:mt-2 rounded-2xl  shadow-lg  ">
+                            <div className="bg-[#BCED6D1A] p-6 lg:mt-2 rounded-2xl  shadow-lg  ">
                                 <div className="mb-6"><img src={phone} alt="" />
 
                                 </div>
@@ -42,7 +42,7 @@ const Touch = () => {
                             </div>
                         </div>
 
-                        <div className="lg:p-6   text-xl col-span-2 border rounded-2xl ">
+                        <div className="p-6   text-xl col-span-2 border rounded-2xl ">
                             <div className="gap-7 grid lg:grid-cols-2">
                                 <div className="space-y-4 ">
                                     <label className='text-lg font-semibold'>Your Name</label>

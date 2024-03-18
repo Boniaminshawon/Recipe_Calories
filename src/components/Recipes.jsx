@@ -59,22 +59,22 @@ const Recipes = () => {
     }
 
     return (
-        <div className=" mt-16">
+        <div className=" mt-8 lg:mt-16">
             <div className="space-y-4 text-center">
-                <h1 className="font-semibold text-[34px]">Our Recipes</h1>
-                <p className="text-[#150B2B99] mx-20 px-20 
+                <h1 className="lg:font-semibold font-bold lg:text-[34px] text-[26px]">Our Recipes</h1>
+                <p className="text-[#150B2B99] lg:mx-20 lg:px-20 px-4 
                 font-secondary text-lg">We teaches many types of delicious and juicy food. You can learn and make spicy and desert both types of item by doing our course . To achieve mastering of cooking you can explore us.  </p>
             </div>
 
-            <div className="flex gap-3 mt-8">
-                <div className="w-[65%] grid grid-cols-2 gap-4">
+            <div className="flex flex-col lg:flex-row md:flex-row gap-3 mt-8">
+                <div className="lg:w-[65%] grid lg:grid-cols-2 gap-4">
                     {
                         recipes.map(recipe => <Recipe key={recipe.recipe_id} recipe={recipe} handleToCook={handleToCook}></Recipe>)
                     }
                 </div>
 
 
-                <div className="w-[35%]">
+                <div className="lg:w-[35%]">
                     <Sidebar handlePreparingBtn={handlePreparingBtn} cooksCount={cooksCount} currentCooks={currentCooks} totalTime={totalTime} totalCalories={totalCalories}></Sidebar>
 
                     <ToastContainer />

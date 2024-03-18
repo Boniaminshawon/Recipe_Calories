@@ -12,21 +12,14 @@ function App() {
 
   return (
     <>
-
-  
-
-      <div className="container mx-auto px-16 font-primary bg">
-
+      <div className="container mx-auto px-2 lg:px-16 font-primary bg">
         <Navbar></Navbar>
         <Banner></Banner>
         <Recipes ></Recipes>
         <Touch></Touch>
         <Footer></Footer>
-     
       </div>
-
     </>
   )
 }
-
 export default App
