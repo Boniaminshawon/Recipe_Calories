@@ -4,7 +4,7 @@
 const Banner = () => {
     return (
         <div className='lg:mt-4 mt-[2]'>
-            <div style={{ backgroundImage: "url('../src/assets/images/Rectangle 1.png')" }} className='text-white text-center flex flex-col rounded-3xl justify-center items-center bg-cover bg-no-repeat bg-center space-y-8  lg:pb-0 pb-20 lg:h-[500px]' >
+            <div style={{ backgroundImage: "url('https://i.ibb.co/HGBzcV7/Rectangle-1.png')" }} className='text-white text-center flex flex-col rounded-3xl justify-center items-center bg-cover bg-no-repeat bg-center space-y-8  lg:pb-0 pb-20 lg:h-[500px]' >
                
                 <h1 className="font-bold lg:text-[44px]  lg:mx-40 mx-10  lg:mt-4 mt-20 text-[24px] ">Discover an exceptional cooking  class tailored for you!</h1>
 

@@ -14,7 +14,7 @@ const Recipes = () => {
     const [totalCalories, setTotalCalories] = useState(0);
 
     useEffect(() => {
-        fetch('../../public/recipe.json')
+        fetch('recipe.json')
             .then(res => res.json())
             .then(data => setRecipes(data));
     }, [])
